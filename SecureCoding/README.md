@@ -1,3 +1,3 @@
 # SecureCoding
 
-## Testing out `NSSecureCoding`
+## `NSSecureCoding`

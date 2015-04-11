@@ -1,3 +1,3 @@
 # NSProxyObjects
 
-## Testing out `NSProxy` and message forwarding
+## `NSProxy` and message forwarding

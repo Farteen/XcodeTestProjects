@@ -1,3 +1,3 @@
 # NSAttributedStringWithHTML
 
-## Testing out rendering HTML with `NSAttributedString`.
+## Rendering HTML with `NSAttributedString`.

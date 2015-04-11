@@ -1,3 +1,3 @@
 # SpringyCollectionView
 
-## Testing out a springy `UICollectionViewFlowLayout`
+## A springy `UICollectionViewFlowLayout`

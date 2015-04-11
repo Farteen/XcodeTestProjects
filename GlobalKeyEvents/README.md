@@ -1,3 +1,3 @@
 # GlobalKeyEvents
 
-## Testing out global monitoring of `NSKeyDownMask`
+## Global monitoring of `NSKeyDownMask`

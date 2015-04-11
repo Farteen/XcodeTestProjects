@@ -1,3 +1,3 @@
 # UIKeyCommander
 
-## Testing out `UIKeyCommand`
+## `UIKeyCommand`

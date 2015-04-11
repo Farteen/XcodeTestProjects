@@ -3,14 +3,14 @@
 ## Random, small, exploratory Xcode test projects
 
 - [CollectionOfBlocks](CollectionOfBlocks) - An `NSDictionary` of blocks.
-- [CollectionViewWithCustomTransition](CollectionViewWithCustomTransition) - Testing out a custom view controller transition from a collection view.
-- [GlobalKeyEvents](GlobalKeyEvents) - Testing out global monitoring of `NSKeyDownMask`.
-- [MVVMWithKVO](MVVMWithKVO) - Testing out implementing MVVM with key-value observing.
-- [NSAttributedStringWithHTML](NSAttributedStringWithHTML) - Testing out rendering HTML with `NSAttributedString`.
-- [NSProxyObjects](NSProxyObjects) - Testing out `NSProxy` and message forwarding.
-- [ResponderChaining](ResponderChaining) - Testing out the responder chain.
-- [SecureCoding](SecureCoding) - Testing out `NSSecureCoding`.
-- [SetNilValueForKey](SetNilValueForKey) - Testing out `setNilValueForKey:`.
-- [SpringyCollectionView](SpringyCollectionView) - Testing out a springy `UICollectionViewFlowLayout`.
-- [UIKeyCommander](UIKeyCommander) - Testing out `UIKeyCommand`.
-- [UIWebViewPagination](UIWebViewPagination) - Testing out pagination and altering content with a web view.
+- [CollectionViewWithCustomTransition](CollectionViewWithCustomTransition) - Custom view controller transition from a collection view.
+- [GlobalKeyEvents](GlobalKeyEvents) - Global monitoring of `NSKeyDownMask`.
+- [MVVMWithKVO](MVVMWithKVO) - Implementing MVVM with key-value observing.
+- [NSAttributedStringWithHTML](NSAttributedStringWithHTML) - Rendering HTML with `NSAttributedString`.
+- [NSProxyObjects](NSProxyObjects) - `NSProxy` and message forwarding.
+- [ResponderChaining](ResponderChaining) - The responder chain.
+- [SecureCoding](SecureCoding) - `NSSecureCoding`.
+- [SetNilValueForKey](SetNilValueForKey) - `setNilValueForKey:`.
+- [SpringyCollectionView](SpringyCollectionView) - A springy `UICollectionViewFlowLayout`.
+- [UIKeyCommander](UIKeyCommander) - `UIKeyCommand`.
+- [UIWebViewPagination](UIWebViewPagination) - Pagination and altering content with a web view.
