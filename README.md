@@ -2,6 +2,7 @@
 
 ## Random, small, exploratory Xcode test projects
 
+- [CollectionOfBlocks](CollectionOfBlocks) - An `NSDictionary` of blocks.
 - [GlobalKeyEvents](GlobalKeyEvents/) - Testing out global monitoring of `NSKeyDownMask`.
 - [MVVMWithKVO](MVVMWithKVO/) - Testing out implementing MVVM with key-value observing.
 - [NSAttributedStringWithHTML](NSAttributedStringWithHTML/) - Testing out rendering HTML with `NSAttributedString`.
