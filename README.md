@@ -12,3 +12,5 @@
 - [SecureCoding](SecureCoding) - Testing out `NSSecureCoding`.
 - [SetNilValueForKey](SetNilValueForKey) - Testing out `setNilValueForKey:`.
 - [SpringyCollectionView](SpringyCollectionView) - Testing out a springy `UICollectionViewFlowLayout`.
+- [UIKeyCommander](UIKeyCommander) - Testing out `UIKeyCommand`.
+- [UIWebViewPagination](UIWebViewPagination) - Testing out pagination and altering content with a web view.
