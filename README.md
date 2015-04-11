@@ -6,6 +6,7 @@
 - [GlobalKeyEvents](GlobalKeyEvents/) - Testing out global monitoring of `NSKeyDownMask`.
 - [MVVMWithKVO](MVVMWithKVO/) - Testing out implementing MVVM with key-value observing.
 - [NSAttributedStringWithHTML](NSAttributedStringWithHTML/) - Testing out rendering HTML with `NSAttributedString`.
+- [NSProxyObjects](NSProxyObjects) - Testing out `NSProxy` and message forwarding.
 - [ResponderChaining](ResponderChaining/) - Testing out the responder chain.
 - [SecureCoding](SecureCoding/) - Testing out `NSSecureCoding`.
 - [SetNilValueForKey](SetNilValueForKey/) - Testing out `setNilValueForKey:`.
