@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04248CFF18B8DBE100BF66D4 /* SecondViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04248CFE18B8DBE100BF66D4 /* SecondViewModel.m */; };
+		04248D0218B8DBF900BF66D4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04248D0118B8DBF900BF66D4 /* SecondViewController.m */; };
+		04248D0518B8DC0600BF66D4 /* SecondObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04248D0418B8DC0600BF66D4 /* SecondObject.m */; };
+		0487655318B91036008EA2A2 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487655218B91036008EA2A2 /* CustomObject.m */; };
+		04FE3F1C181D8F2400814357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE3F1B181D8F2400814357 /* Foundation.framework */; };
+		04FE3F1E181D8F2400814357 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE3F1D181D8F2400814357 /* CoreGraphics.framework */; };
+		04FE3F20181D8F2400814357 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE3F1F181D8F2400814357 /* UIKit.framework */; };
+		04FE3F26181D8F2400814357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FE3F24181D8F2400814357 /* InfoPlist.strings */; };
+		04FE3F28181D8F2400814357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE3F27181D8F2400814357 /* main.m */; };
+		04FE3F2C181D8F2400814357 /* BJLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE3F2B181D8F2400814357 /* BJLAppDelegate.m */; };
+		04FE3F2F181D8F2400814357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE3F2D181D8F2400814357 /* Main.storyboard */; };
+		04FE3F32181D8F2400814357 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE3F31181D8F2400814357 /* PersonViewController.m */; };
+		04FE3F34181D8F2400814357 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FE3F33181D8F2400814357 /* Images.xcassets */; };
+		04FE3F3B181D8F2400814357 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE3F3A181D8F2400814357 /* XCTest.framework */; };
+		04FE3F3C181D8F2400814357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE3F1B181D8F2400814357 /* Foundation.framework */; };
+		04FE3F3D181D8F2400814357 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE3F1F181D8F2400814357 /* UIKit.framework */; };
+		04FE3F45181D8F2400814357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FE3F43181D8F2400814357 /* InfoPlist.strings */; };
+		04FE3F47181D8F2400814357 /* MVVMWithKVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE3F46181D8F2400814357 /* MVVMWithKVOTests.m */; };
+		04FE3F52181D8F7300814357 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE3F51181D8F7300814357 /* Person.m */; };
+		04FE3F55181D8FD500814357 /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE3F54181D8FD500814357 /* PersonViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FE3F3E181D8F2400814357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FE3F10181D8F2400814357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FE3F17181D8F2400814357;
+			remoteInfo = MVVMWithKVO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04248CFD18B8DBE100BF66D4 /* SecondViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewModel.h; sourceTree = "<group>"; };
+		04248CFE18B8DBE100BF66D4 /* SecondViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewModel.m; sourceTree = "<group>"; };
+		04248D0018B8DBF900BF66D4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04248D0118B8DBF900BF66D4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04248D0318B8DC0600BF66D4 /* SecondObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondObject.h; sourceTree = "<group>"; };
+		04248D0418B8DC0600BF66D4 /* SecondObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondObject.m; sourceTree = "<group>"; };
+		0487655118B91036008EA2A2 /* CustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		0487655218B91036008EA2A2 /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		04FE3F18181D8F2400814357 /* MVVMWithKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMWithKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FE3F1B181D8F2400814357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04FE3F1D181D8F2400814357 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04FE3F1F181D8F2400814357 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04FE3F23181D8F2400814357 /* MVVMWithKVO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVVMWithKVO-Info.plist"; sourceTree = "<group>"; };
+		04FE3F25181D8F2400814357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04FE3F27181D8F2400814357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FE3F29181D8F2400814357 /* MVVMWithKVO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVVMWithKVO-Prefix.pch"; sourceTree = "<group>"; };
+		04FE3F2A181D8F2400814357 /* BJLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJLAppDelegate.h; sourceTree = "<group>"; };
+		04FE3F2B181D8F2400814357 /* BJLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJLAppDelegate.m; sourceTree = "<group>"; };
+		04FE3F2E181D8F2400814357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FE3F30181D8F2400814357 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		04FE3F31181D8F2400814357 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		04FE3F33181D8F2400814357 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04FE3F39181D8F2400814357 /* MVVMWithKVOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMWithKVOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FE3F3A181D8F2400814357 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04FE3F42181D8F2400814357 /* MVVMWithKVOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVVMWithKVOTests-Info.plist"; sourceTree = "<group>"; };
+		04FE3F44181D8F2400814357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04FE3F46181D8F2400814357 /* MVVMWithKVOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMWithKVOTests.m; sourceTree = "<group>"; };
+		04FE3F50181D8F7300814357 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		04FE3F51181D8F7300814357 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		04FE3F53181D8FD500814357 /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
+		04FE3F54181D8FD500814357 /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FE3F15181D8F2400814357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FE3F1E181D8F2400814357 /* CoreGraphics.framework in Frameworks */,
+				04FE3F20181D8F2400814357 /* UIKit.framework in Frameworks */,
+				04FE3F1C181D8F2400814357 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FE3F36181D8F2400814357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FE3F3B181D8F2400814357 /* XCTest.framework in Frameworks */,
+				04FE3F3D181D8F2400814357 /* UIKit.framework in Frameworks */,
+				04FE3F3C181D8F2400814357 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FE3F0F181D8F2400814357 = {
+			isa = PBXGroup;
+			children = (
+				04FE3F21181D8F2400814357 /* MVVMWithKVO */,
+				04FE3F40181D8F2400814357 /* MVVMWithKVOTests */,
+				04FE3F1A181D8F2400814357 /* Frameworks */,
+				04FE3F19181D8F2400814357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FE3F19181D8F2400814357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F18181D8F2400814357 /* MVVMWithKVO.app */,
+				04FE3F39181D8F2400814357 /* MVVMWithKVOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FE3F1A181D8F2400814357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F1B181D8F2400814357 /* Foundation.framework */,
+				04FE3F1D181D8F2400814357 /* CoreGraphics.framework */,
+				04FE3F1F181D8F2400814357 /* UIKit.framework */,
+				04FE3F3A181D8F2400814357 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04FE3F21181D8F2400814357 /* MVVMWithKVO */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F56181E79B000814357 /* Model */,
+				04FE3F57181E79BA00814357 /* View */,
+				04FE3F58181E79C200814357 /* ViewModel */,
+				04FE3F33181D8F2400814357 /* Images.xcassets */,
+				04FE3F22181D8F2400814357 /* Supporting Files */,
+			);
+			path = MVVMWithKVO;
+			sourceTree = "<group>";
+		};
+		04FE3F22181D8F2400814357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F2A181D8F2400814357 /* BJLAppDelegate.h */,
+				04FE3F2B181D8F2400814357 /* BJLAppDelegate.m */,
+				04FE3F23181D8F2400814357 /* MVVMWithKVO-Info.plist */,
+				04FE3F24181D8F2400814357 /* InfoPlist.strings */,
+				04FE3F27181D8F2400814357 /* main.m */,
+				04FE3F29181D8F2400814357 /* MVVMWithKVO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FE3F40181D8F2400814357 /* MVVMWithKVOTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F46181D8F2400814357 /* MVVMWithKVOTests.m */,
+				04FE3F41181D8F2400814357 /* Supporting Files */,
+			);
+			path = MVVMWithKVOTests;
+			sourceTree = "<group>";
+		};
+		04FE3F41181D8F2400814357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F42181D8F2400814357 /* MVVMWithKVOTests-Info.plist */,
+				04FE3F43181D8F2400814357 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FE3F56181E79B000814357 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F50181D8F7300814357 /* Person.h */,
+				04FE3F51181D8F7300814357 /* Person.m */,
+				04248D0318B8DC0600BF66D4 /* SecondObject.h */,
+				04248D0418B8DC0600BF66D4 /* SecondObject.m */,
+				0487655118B91036008EA2A2 /* CustomObject.h */,
+				0487655218B91036008EA2A2 /* CustomObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04FE3F57181E79BA00814357 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F2D181D8F2400814357 /* Main.storyboard */,
+				04FE3F30181D8F2400814357 /* PersonViewController.h */,
+				04FE3F31181D8F2400814357 /* PersonViewController.m */,
+				04248D0018B8DBF900BF66D4 /* SecondViewController.h */,
+				04248D0118B8DBF900BF66D4 /* SecondViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04FE3F58181E79C200814357 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04FE3F53181D8FD500814357 /* PersonViewModel.h */,
+				04FE3F54181D8FD500814357 /* PersonViewModel.m */,
+				04248CFD18B8DBE100BF66D4 /* SecondViewModel.h */,
+				04248CFE18B8DBE100BF66D4 /* SecondViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FE3F17181D8F2400814357 /* MVVMWithKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FE3F4A181D8F2400814357 /* Build configuration list for PBXNativeTarget "MVVMWithKVO" */;
+			buildPhases = (
+				04FE3F14181D8F2400814357 /* Sources */,
+				04FE3F15181D8F2400814357 /* Frameworks */,
+				04FE3F16181D8F2400814357 /* Resources */,
+				04355876181FF02700498319 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVMWithKVO;
+			productName = MVVMWithKVO;
+			productReference = 04FE3F18181D8F2400814357 /* MVVMWithKVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FE3F38181D8F2400814357 /* MVVMWithKVOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FE3F4D181D8F2400814357 /* Build configuration list for PBXNativeTarget "MVVMWithKVOTests" */;
+			buildPhases = (
+				04FE3F35181D8F2400814357 /* Sources */,
+				04FE3F36181D8F2400814357 /* Frameworks */,
+				04FE3F37181D8F2400814357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FE3F3F181D8F2400814357 /* PBXTargetDependency */,
+			);
+			name = MVVMWithKVOTests;
+			productName = MVVMWithKVOTests;
+			productReference = 04FE3F39181D8F2400814357 /* MVVMWithKVOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FE3F10181D8F2400814357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BJL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Bryan Luby";
+				TargetAttributes = {
+					04FE3F38181D8F2400814357 = {
+						TestTargetID = 04FE3F17181D8F2400814357;
+					};
+				};
+			};
+			buildConfigurationList = 04FE3F13181D8F2400814357 /* Build configuration list for PBXProject "MVVMWithKVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FE3F0F181D8F2400814357;
+			productRefGroup = 04FE3F19181D8F2400814357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FE3F17181D8F2400814357 /* MVVMWithKVO */,
+				04FE3F38181D8F2400814357 /* MVVMWithKVOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FE3F16181D8F2400814357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FE3F34181D8F2400814357 /* Images.xcassets in Resources */,
+				04FE3F26181D8F2400814357 /* InfoPlist.strings in Resources */,
+				04FE3F2F181D8F2400814357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FE3F37181D8F2400814357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FE3F45181D8F2400814357 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04355876181FF02700498319 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Building ${TARGET_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FE3F14181D8F2400814357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FE3F55181D8FD500814357 /* PersonViewModel.m in Sources */,
+				04FE3F32181D8F2400814357 /* PersonViewController.m in Sources */,
+				0487655318B91036008EA2A2 /* CustomObject.m in Sources */,
+				04248CFF18B8DBE100BF66D4 /* SecondViewModel.m in Sources */,
+				04248D0218B8DBF900BF66D4 /* SecondViewController.m in Sources */,
+				04248D0518B8DC0600BF66D4 /* SecondObject.m in Sources */,
+				04FE3F28181D8F2400814357 /* main.m in Sources */,
+				04FE3F52181D8F7300814357 /* Person.m in Sources */,
+				04FE3F2C181D8F2400814357 /* BJLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FE3F35181D8F2400814357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FE3F47181D8F2400814357 /* MVVMWithKVOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FE3F3F181D8F2400814357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FE3F17181D8F2400814357 /* MVVMWithKVO */;
+			targetProxy = 04FE3F3E181D8F2400814357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FE3F24181D8F2400814357 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FE3F25181D8F2400814357 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04FE3F2D181D8F2400814357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FE3F2E181D8F2400814357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FE3F43181D8F2400814357 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FE3F44181D8F2400814357 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FE3F48181D8F2400814357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FE3F49181D8F2400814357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FE3F4B181D8F2400814357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVVMWithKVO/MVVMWithKVO-Prefix.pch";
+				INFOPLIST_FILE = "MVVMWithKVO/MVVMWithKVO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04FE3F4C181D8F2400814357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVVMWithKVO/MVVMWithKVO-Prefix.pch";
+				INFOPLIST_FILE = "MVVMWithKVO/MVVMWithKVO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04FE3F4E181D8F2400814357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MVVMWithKVO.app/MVVMWithKVO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVVMWithKVO/MVVMWithKVO-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MVVMWithKVOTests/MVVMWithKVOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04FE3F4F181D8F2400814357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MVVMWithKVO.app/MVVMWithKVO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVVMWithKVO/MVVMWithKVO-Prefix.pch";
+				INFOPLIST_FILE = "MVVMWithKVOTests/MVVMWithKVOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FE3F13181D8F2400814357 /* Build configuration list for PBXProject "MVVMWithKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FE3F48181D8F2400814357 /* Debug */,
+				04FE3F49181D8F2400814357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FE3F4A181D8F2400814357 /* Build configuration list for PBXNativeTarget "MVVMWithKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FE3F4B181D8F2400814357 /* Debug */,
+				04FE3F4C181D8F2400814357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FE3F4D181D8F2400814357 /* Build configuration list for PBXNativeTarget "MVVMWithKVOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FE3F4E181D8F2400814357 /* Debug */,
+				04FE3F4F181D8F2400814357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FE3F10181D8F2400814357 /* Project object */;
+}
