@@ -5,6 +5,7 @@
 - [CollectionOfBlocks](CollectionOfBlocks) - An `NSDictionary` of blocks.
 - [CollectionViewWithCustomTransition](CollectionViewWithCustomTransition) - Custom view controller transition from a collection view.
 - [GlobalKeyEvents](GlobalKeyEvents) - Global monitoring of `NSKeyDownMask`.
+- [MaskViewProperty](MaskViewProperty) - Using the `UIView` `maskView` property that was added in iOS 8.
 - [MVVMWithKVO](MVVMWithKVO) - Implementing MVVM with key-value observing.
 - [NSAttributedStringWithHTML](NSAttributedStringWithHTML) - Rendering HTML with `NSAttributedString`.
 - [NSProxyObjects](NSProxyObjects) - `NSProxy` and message forwarding.
