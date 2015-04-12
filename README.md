@@ -9,6 +9,7 @@
 - [MVVMWithKVO](MVVMWithKVO) - Implementing MVVM with key-value observing.
 - [NSAttributedStringWithHTML](NSAttributedStringWithHTML) - Rendering HTML with `NSAttributedString`.
 - [NSProxyObjects](NSProxyObjects) - `NSProxy` and message forwarding.
+- [PolymorphMe](PolymorphMe) - Fun with polymorphism.
 - [ResponderChaining](ResponderChaining) - The responder chain.
 - [SecureCoding](SecureCoding) - `NSSecureCoding`.
 - [SetNilValueForKey](SetNilValueForKey) - `setNilValueForKey:`.
