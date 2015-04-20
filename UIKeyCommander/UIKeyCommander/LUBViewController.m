@@ -9,8 +9,10 @@
 #import "LUBViewController.h"
 
 @interface LUBViewController () <UITableViewDataSource>
+
 @property (strong, nonatomic) UITextField *textField;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 @end
 
 @implementation LUBViewController
@@ -18,6 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     self.textField = [[UITextField alloc] init];
     [self.view addSubview:self.textField];
     self.textField.hidden = YES;
@@ -26,6 +29,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+
     [self.textField becomeFirstResponder];
     [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]
                                 animated:NO
