@@ -2,6 +2,7 @@
 
 ## Random, small, exploratory Xcode test projects
 
+- [ActivityTracing](ActivityTracing) - Testing out activity tracing.
 - [CollectionOfBlocks](CollectionOfBlocks) - An `NSDictionary` of blocks.
 - [CollectionViewWithCustomTransition](CollectionViewWithCustomTransition) - Custom view controller transition from a collection view.
 - [GlobalKeyEvents](GlobalKeyEvents) - Global monitoring of `NSKeyDownMask`.
