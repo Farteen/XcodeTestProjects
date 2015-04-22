@@ -10,6 +10,7 @@
 - [MVVMWithKVO](MVVMWithKVO) - Implementing MVVM with key-value observing.
 - [NSAttributedStringWithHTML](NSAttributedStringWithHTML) - Rendering HTML with `NSAttributedString`.
 - [NSProxyObjects](NSProxyObjects) - `NSProxy` and message forwarding.
+- [ObjectDescriptionUtility](ObjectDescriptionUtility) - Print out all properties for an object.
 - [ObjectsInIB](ObjectsInIB) - Using a generic object in Interface Builder.
 - [PolymorphMe](PolymorphMe) - Fun with polymorphism.
 - [ResponderChaining](ResponderChaining) - The responder chain.
