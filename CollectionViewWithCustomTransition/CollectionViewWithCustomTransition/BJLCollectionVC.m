@@ -10,10 +10,11 @@
 
 #import "BJLModalVC.h"
 #import "BJLVCTransitionDelegate.h"
-@import SafariServices;
 
 @interface BJLCollectionVC ()
+
 @property (strong, nonatomic) BJLVCTransitionDelegate *transitionDelegate;
+
 @end
 
 @implementation BJLCollectionVC
@@ -21,6 +22,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     self.transitionDelegate = [[BJLVCTransitionDelegate alloc] initWithDataView:self.collectionView];
     
     // Stop overlap of modal VC
@@ -41,7 +43,6 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     BJLModalVC *toVC = [self.storyboard instantiateViewControllerWithIdentifier:@"modalVC"];
-    
     toVC.transitioningDelegate = self.transitionDelegate;
     toVC.modalPresentationStyle = UIModalPresentationCustom;
     
